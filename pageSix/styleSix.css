@@ -1,0 +1,110 @@
+*{
+    font-family: Michroma;
+    margin: 0;padding: 0;
+    text-transform: uppercase;
+}
+.wrapper{
+    padding-bottom: 30px;
+    background-image: url(../assets/pageSix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.header{
+    color:#FFAB00 ;
+    font-size:27px ;
+    font-family: Michroma;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 85px;
+}
+.header-wrapper{
+    padding-top: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text{
+    font-size: 18px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    width: 200px;
+    text-align: center;
+    opacity: 0.7;
+}
+.text-wrapper{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 30px;  
+
+}
+.address{
+    width: 600px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
+.address-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 290px;
+    margin-bottom: 30px;
+}
+.link-wrapper{
+    width: 50px;
+    height: 50px;
+    background-color:#FFAB00;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.link-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+@media (min-width:320px) and (max-width:768px){
+    .wrapper{
+        padding: 5px;
+        background-size: cover;
+    }
+    .text-wrapper{
+        background-color: #080F2B;
+        color: #FFFFFF;
+        height: fit-content;
+    }
+    .text{
+        font-size: 10px;
+        text-align: center;
+
+    }
+    .address{
+        width: fit-content;
+        color: #FFFFFF;
+        font-size: 10px;
+        text-align: center;
+    }
+    .address-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 290px;
+        margin-bottom: 30px;
+    }
+}
